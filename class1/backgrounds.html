@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgrounds in CSS</title>
+    <style>
+        .box{
+            width: 500px;
+            height: 400px;
+            text-align: center;
+        }
+
+        #first{
+            background-color: chartreuse;
+        }
+        #second{
+            background-image: url(./assets/img/img.jpg);
+            background-size: cover;
+            background-position: right;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Backgrounds in CSS</h1>
+
+    <div class="box" id="first">
+        First
+    </div>
+    <div class="box" id="second">
+        Second
+    </div>
+    <div class="box" id="third">
+        Third
+    </div>
+</body>
+</html>
