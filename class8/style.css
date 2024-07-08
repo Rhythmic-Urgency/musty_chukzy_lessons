@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#one{
+    text-decoration: overline;
+}
+#two{
+    text-decoration: underline;
+}
+#three{
+    text-decoration: line-through;
+}
+#four{
+    text-decoration: overline underline;
+}
+
+#data{
+    text-align: center;
+    text-shadow: 10px 10px 5px tomato;
+    font-size: 150px;
+    font-family: "Agbalumo", fantasy;
+}

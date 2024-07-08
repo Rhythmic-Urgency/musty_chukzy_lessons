@@ -1,0 +1,38 @@
+#box{
+    width: 200px;
+    height: 200px;
+    background: goldenrod;
+
+    /* Margin Properties */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    /* Padding properties */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#circle{
+    width: 100px;
+    height: 100px;
+    background: tomato;
+    border-radius: 50%;
+    /* margin-left: 80px;
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-bottom: 0px; */
+    margin: 100px 0px 0px 80px;
+}
+
+#oval{
+    width: 150px;
+    height: 250px;
+    background: violet;
+    border-radius: 50%;
+    margin: 20px 30px;
+}
