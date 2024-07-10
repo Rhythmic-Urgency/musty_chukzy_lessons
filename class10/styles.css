@@ -1,0 +1,19 @@
+ul{
+    /* Using List style type */
+    list-style-type: square;
+
+    /* Using List style Image */
+    /* list-style-image: url(../assets/icons/robot.png); */
+}
+
+/* Tables in CSS */
+table{
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+    height: 50vh;
+}
+th{
+    height: 100px;
+}
